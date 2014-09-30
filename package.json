@@ -1,6 +1,6 @@
 {
   "name": "lru-cache-pool",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "LRU Cache Pool",
   "author": "Yuriy Nemtsov <nemtsov@gmail.com>",
   "repository": {
