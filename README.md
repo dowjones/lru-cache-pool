@@ -29,7 +29,7 @@ Refer to the [lru-cache Options section of the readme](https://github.com/isaacs
 
 ## Note
 
-When calling `pool.get()`, for the first time a new cache will be created
+When calling `pool.get()` for the first time a new cache will be created
 and placed in a pool. Subsequent calls will get an existing cache from the
 pool, unless it is expired; in which case a new cache will be created.
 
