@@ -1,0 +1,29 @@
+{
+  "name": "lru-cache-pool",
+  "version": "0.1.0",
+  "description": "LRU Cache Pool",
+  "author": "Yuriy Nemtsov <nemtsov@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/areusjs/lru-cache-pool.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r should --recursive",
+    "test-watch": "mocha -r should --recursive -w -G -R min",
+    "test-cov": "istanbul cover _mocha -- -r should --recursive"
+  },
+  "devDependencies": {
+    "istanbul": "^0.3.2",
+    "lru-cache": "^2.5.0",
+    "mocha": "^1.21.4",
+    "should": "^3.3.2",
+    "sinon": "^1.10.0"
+  },
+  "keywords": [
+    "lru",
+    "lru-cache",
+    "lru-cache-pool"
+  ],
+  "license": "MIT"
+}
