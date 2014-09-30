@@ -7,8 +7,8 @@ A pool of LRU caches.
 
 ```javascript
 var LRU = require('lru-cache'),
-  LRUpool = require('lru-cache-pool'),
-  pool = LRUpool(LRU),
+  LRUPool = require('lru-cache-pool'),
+  pool = LRUPool(LRU),
   c1, c2;
 
 c1 = pool.get('users');
@@ -21,7 +21,7 @@ assert.equal(77, c2.get('z'));
 
 ## Options
 
-Options can be provided in the constructor `LRUpool(LRU, options)`,
+Options can be provided in the constructor `LRUPool(LRU, options)`,
 as well as when creating new caches via get `pool.get('name', options)`.
 
 Refer to the [lru-cache Options section of the readme](https://github.com/isaacs/node-lru-cache#options) for details.
