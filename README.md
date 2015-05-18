@@ -1,4 +1,4 @@
-# LRU Cache Pool [![Build Status](https://secure.travis-ci.org/areusjs/lru-cache-pool.png)](http://travis-ci.org/areusjs/lru-cache-pool) [![NPM version](https://badge.fury.io/js/lru-cache-pool.svg)](http://badge.fury.io/js/lru-cache-pool)
+# LRU Cache Pool [![Build Status](https://secure.travis-ci.org/dowjones/lru-cache-pool.png)](http://travis-ci.org/dowjones/lru-cache-pool) [![NPM version](https://badge.fury.io/js/lru-cache-pool.svg)](http://badge.fury.io/js/lru-cache-pool)
 
 A pool of LRU caches.
 
